@@ -5,12 +5,13 @@ import "os"
 import "strconv"
 
 func getInput() int {
-	
 	if len(os.Args) < 2{
 		fmt.Println("Usage: go run fizzbuzz.go <number>")
-		fmt.PrintIn
-	}
-
+		fmt.Println("Defaulting to max value of 100")
+		return 100
+	} 
+	
+	
 	str := os.Args[1]
 	max_num, err := strconv.Atoi(str)
 	
