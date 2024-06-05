@@ -28,6 +28,17 @@ func main() {
 	num := getInput()
 	// fmt.Println("max:", num) //debug
 	for n := range(num){
-		fmt.Println(n)
+		if n % 3 == 0 && n % 5 == 0 {
+			fmt.Println(n, "- FizzBuzz")
+		} else if n % 3 == 0 {
+		fmt.Println(n, "- Fizz")
+		} else if n % 5 == 0 {
+		fmt.Println(n, "- Buzz")
+		} else{
+			fmt.Println(n)
+		}
+
+
+
 	}
 }
