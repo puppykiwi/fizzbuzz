@@ -38,7 +38,7 @@ func main() {
 			fmt.Println(n)
 		}
 
-	// Need to work to hazndle the 0 value result which defaults to the first if statement
+	// Need to work to handle the 0 value result which defaults to the first if statement
 
 	}
 }
