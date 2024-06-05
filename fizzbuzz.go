@@ -7,7 +7,7 @@ import "strconv"
 func getInput() int {
 	if len(os.Args) < 2{
 		fmt.Println("Usage: go run fizzbuzz.go <number>")
-		fmt.Println("Defaulting to max value of 100")
+		fmt.Println("Defaulting to max value of 100 \n")
 		return 100
 	} 
 	
