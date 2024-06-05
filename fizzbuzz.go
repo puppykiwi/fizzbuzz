@@ -4,11 +4,11 @@ import "fmt"
 import "os"
 import "strconv"
 
-func main(){
+func getInput() int {
 	
 	if len(os.Args) < 2{
 		fmt.Println("Usage: go run fizzbuzz.go <number>")
-		return
+		fmt.PrintIn
 	}
 
 	str := os.Args[1]
@@ -16,10 +16,17 @@ func main(){
 	
 	if err != nil {
 		fmt.Println("The program failed with exit code:", err)
-		return
 	}
 
-	for i := 0; i < max_num; i++ {
-		fmt.Print("hello, ", i)
-	} 
+
+
+	return max_num
+}
+
+func main() {
+	num := getInput()
+	// fmt.Println("max:", num) //debug
+	for n := range(num){
+		fmt.Println(n)
+	}
 }
