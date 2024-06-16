@@ -1,7 +1,9 @@
 Popular programming task fizzbuzz
 
 Language: 
-- Python
+
 - JavaScript
-- C
+- Python
 - Nuru
+- Go
+- C
